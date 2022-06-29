@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+
+    <!--Importando a fonte "Montserrat" da API do Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!--Fim da importação-->
+</head>
+
+<body>
+    <header>
+        <div id="header" class="container">
+            <span>
+                Olá, Leonardo!
+            </span>
+            <img src="https://avatars.githubusercontent.com/u/93151770?v=4" alt="Foto do usuário">
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="display">
+                <h3>
+                    Recebimentos
+                </h3>
+                <div class="card">
+                    <span>
+                        R$
+                    </span>
+                    <span>
+                        7.350,75
+                    </span>
+                </div>
+            </div>
+
+            <div class="display">
+                <h3>
+                    Gastos
+                </h3>
+                <div class="card">
+                    <span>
+                        R$
+                    </span>
+                    <span>
+                        3.050,00
+                    </span>
+                </div>
+            </div>
+
+            <div class="display">
+                <h3>
+                    Balanço
+                </h3>
+                <div id="balance" class="card">
+                    <span>
+                        R$
+                    </span>
+                    <span>
+                        4.300,75
+                    </span>
+                </div>
+            </div>
+
+            <div class="display">
+                <h3>
+                    Investimentos
+                </h3>
+                <div id="invest" class="card">
+                    <span>
+                        R$
+                    </span>
+                    <span>
+                        1.450,00
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3>
+                Último gasto
+            </h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Data
+                        </th>
+                        <th>
+                            Descrção
+                        </th>
+                        <th>
+                            Valor
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            22/04
+                        </td>
+                        <td>
+                            Aluguel
+                        </td>
+                        <td>
+                            R$ 550,00
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="inputGroup">
+                <button>
+                    NOVA TRANSAÇÃO
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
